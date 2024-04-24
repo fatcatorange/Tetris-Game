@@ -1,7 +1,7 @@
 # 透過react、firebase製作的俄羅斯方塊
 
 多人模式透過firebase的資料庫完成，因為使用免費方案，每日超過一定用量可能導致無法服務
-您可透過連結 [https://fatcatorange.github.io/React-tetris/] 遊玩
+您可透過連結 [https://fatcatorange.github.io/Tetris-Game/] 遊玩
 
 ## 操作方法
 

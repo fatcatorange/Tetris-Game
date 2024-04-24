@@ -1,0 +1,169 @@
+.brick{
+    height:auto;
+    background-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.white-brick{
+    height:auto;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 20%;
+    opacity: 0.8;
+}
+
+.I-brick{
+    height:auto;
+    background-color: aqua;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 20%;
+}
+
+.J-brick{
+    height:auto;
+    background-color: rgb(59, 59, 209);
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 20%;
+}
+
+.L-brick{
+    height:auto;
+    background-color: orange;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 20%;
+}
+
+.O-brick{
+    height:auto;
+    background-color: yellow;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 20%;
+}
+
+.S-brick{
+    height:auto;
+    background-color: lightgreen;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 20%;
+}
+
+.Z-brick{
+    height:auto;
+    background-color: red;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 20%;
+}
+
+.T-brick{
+    height:auto;
+    background-color: rgb(146, 35, 146);
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 20%;
+}
+
+.clean-brick{
+    height:auto;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20%;
+    border-color: black;
+    animation: fadeInAnimation 700ms ;
+    
+}
+
+.game-component-panel{
+    position:relative;
+    display: grid;
+    grid-template-columns: 1fr 35vh 1fr;
+    padding-top: 50px;
+}
+
+.game-board{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    width: 35vh;
+    height: 70vh;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+@keyframes fadeInAnimation {
+    0% {
+      background-color: white;
+    }
+    100% {
+      background-color: black;
+
+    }
+  }
+
+.visible{
+    opacity: 1;
+}
+
+.nextBrickDisplay{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left:20px;
+    margin-top:50px;
+    margin-right:auto;
+    width: 100px;
+    height: 120px;
+    background-color: black;
+}
+
+.tetris-title{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+}
+
+.tetris-logo{
+    height: 10vh;
+}
+
+.game-over-panel{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.game-panel{
+    position: relative;
+}
+
+.play-button{
+    margin-left:40px;
+    width:50px;
+}
+
+.play-button:hover{
+    opacity:0.5;
+    cursor: pointer;
+}

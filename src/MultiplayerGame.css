@@ -1,0 +1,50 @@
+.first-player-panel{
+    position:relative;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding:10px;
+    padding-top: 50px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.multiPlayerModePanel{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+}
+.nextBrickContainer{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding-right:5vw;
+}
+
+.second-player-panel{
+    position:relative;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding:10px;
+    padding-top: 50px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.display-player{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.time-panel{
+    display:flex;
+    color:white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    font-size:20px;
+    height:10vh;
+    margin:auto;
+    margin-top:10vh;
+    border-radius: 20px;
+}

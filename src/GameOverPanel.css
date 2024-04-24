@@ -1,0 +1,35 @@
+.reset-button{
+    margin-top: 50px;
+    text-align: center;
+    height: 50px;
+    margin:20px;
+    font-size: 20px;
+}
+
+.button-panel{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:20px;
+}
+
+.rematch-button{
+    margin-top: 50px;
+    text-align: center;
+    height: 50px;
+    margin:20px;
+    border-radius: 20px;
+    background-color: rgb(0, 95, 0);
+    color:white;
+    font-size:20px;
+
+}
+
+.rematch-button:hover{
+    background-color: green;
+}
+
+.button-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:20px;
+}
